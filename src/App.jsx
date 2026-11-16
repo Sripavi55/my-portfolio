@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 
 const profile = {
-  name: "Sri Pavithra P.",
+  name: "Sri Pavithra P",
   role: "Full Stack Developer",
   email: "sripavithraselvam@gmail.com",
   linkedin: "https://www.linkedin.com/in/sri-pavithra-539719301",
@@ -77,7 +77,7 @@ function App() {
     <div className="site-shell">
       <div className="ambient ambient-one" /><div className="ambient ambient-two" />
       <header className="header">
-        <a className="brand" href="#home" onClick={closeMenu}><span className="brand-mark">SP.</span><span>SRI PAVITHRA</span></a>
+        <a className="brand" href="#home" onClick={closeMenu}><span className="brand-mark">SP</span><span>SRI PAVITHRA</span></a>
         <button className="menu-toggle" aria-label="Toggle navigation" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
         <nav className={menuOpen ? "nav nav-open" : "nav"}>
           {nav.map(item => <a key={item} href={`#${item.toLowerCase()}`} onClick={closeMenu}>{item}</a>)}
@@ -90,7 +90,7 @@ function App() {
           <motion.div className="hero-copy" initial="hidden" animate="show" variants={{ show: { transition: { staggerChildren: 0.12 } } }}>
             <motion.div variants={reveal} className="availability"><span className="pulse" /> OPEN TO INTERNSHIPS & ENTRY-LEVEL OPPORTUNITIES</motion.div>
             <motion.p variants={reveal} className="hero-kicker">HELLO, I'M</motion.p>
-            <motion.h1 variants={reveal}>Sri Pavithra <span>P.</span></motion.h1>
+            <motion.h1 variants={reveal}>Sri Pavithra <span>P</span></motion.h1>
             <motion.h2 variants={reveal}>I build <span>thoughtful digital</span><br className="desktop-break"/> experiences.</motion.h2>
             <motion.p variants={reveal} className="hero-description">An aspiring Full Stack Developer and IT undergraduate passionate about building useful web applications, solving problems and turning ideas into clean, reliable products.</motion.p>
             <motion.div variants={reveal} className="hero-actions">

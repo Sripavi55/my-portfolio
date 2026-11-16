@@ -1,4 +1,4 @@
-# Sri Pavithra P. — Portfolio
+# Sri Pavithra P — Portfolio
 
 A responsive, dark-premium personal portfolio built with React, Vite, Framer Motion and Lucide React.
 
